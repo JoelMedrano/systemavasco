@@ -138,6 +138,25 @@
 
 		}
 
+
+		if($_SESSION["perfil"] == "Administrador" || $_SESSION["perfil"] == "Vendedor"){
+
+			echo '<li>
+
+				<a href="reloj">
+
+					<i class="fa fa-hourglass"></i>
+					<span>Reloj</span>
+
+				</a>
+
+			</li>';
+
+		}
+
+
+
+
 		?>
 
 		</ul>
